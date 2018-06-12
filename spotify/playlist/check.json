@@ -1,0 +1,58 @@
+{
+    "url": "https://open.spotify.com/user/spotify/playlist",
+    "name": "6WvicXXDq0YGmof0fq8pMk",
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "cookies": "domain.viq=spotify; sp_t=39627a936d22c0c45f8e45cbd5d851e7; sp_ab=%7B%7D; sp_landing=http%3A%2F%2Fopen.spotify.com%2Fuser%2Fspotify%2Fplaylist%2F37i9dQZF1DX1lVhptIYRda%3Futm_source%3Danon_wp_control; _ga=GA1.2.391384062.1528819802; _gid=GA1.2.1912912738.1528819802; sp_last_utm=%7B%22utm_source%22%3A%22webplayer-deeplink%22%2C%22utm_medium%22%3A%22%22%2C%22utm_campaign%22%3A%22%22%7D; sp_usid=65d63661-89bf-46dc-ba27-a16e9cc61a38; sp_dc=AQA3u1xB74_3smzgFAkAC6qjczMKL0JAaSurAIUm3j7rCPN20AbdTgKAm6wXAliJ2vFpMSJnmp5_VSgyxGizHewg; spot=%7B%22t%22%3A1528820354%2C%22m%22%3A%22pl%22%2C%22p%22%3A%22open%22%7D; justRegistered=1; wp_expires_in=3600; wp_sso_token=AQA3u1xB74_3smzgFAkAC6qjczMKL0JAaSurAIUm3j7rCPN20AbdTgKAm6wXAliJ2vFpMSJnmp5_VSgyxGizHewg; sp_phash=78f9805b564803add345e8378c3b614f9a40b415; sp_gaid=0088fc45292c6afb1fb1b1330dde4a71ee7eb8da09e20a7b3b3421; wp_access_token=BQBQO7KYRsLJQO9GzYd_lCqixbbHKybI0ahsXrQF_CkgP0DmHFLiXXJl_0bbiUuAn1yn3BhgLmMdhLm__mSJ1B8EGdWm3W1Z8-6hoY8t623vmpkYYgISTujUqzrHfzjjVvGw1oYP28otR7RGq7Gt6i9nZnkHFQFHqWCMw7H4zna-R154dbVMTeaP5LWRpPQHBb87yeePLGUOAbGMq-wWAo_x4pOQtopFzdGb11wX2TmAI0vtxxFOZYIBwEhvQmijTJgtmooJFFQ2ZhP-jjjIGRuiKGfJWUHzAXY; wp_expiration=1528824770000",
+    "actions": [
+        {
+            "type": "AddToResponse",
+            "params": {"type": "checkscreenshot"}
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true,
+                    "y": true
+                },
+                "target": {
+                    "valueType": "text",
+                    "value": "Beatiful to listen",
+                    "occurrence": "1",
+                    "name": "title"
+                },
+                "group": "artist"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true,
+                    "y": true
+                },
+                "target": {
+                    "valueType": "text",
+                    "value": "3 songs",
+                    "occurrence": "1",
+                    "name": "songs"
+                },
+                "group": "playlist"
+            }
+        }
+    ],
+    "structure": [
+        "title",
+        "songs"
+    ],
+    "samples": [
+        {
+            "page": {
+                "title": "Jae Tyler",
+                "songs": "421 songs"
+            }
+        }
+    ]
+}

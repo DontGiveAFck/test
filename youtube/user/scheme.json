@@ -1,0 +1,415 @@
+{
+    "url": "https://www.youtube.com/user",
+    "profiles": [
+        {
+            "screen": "1920x1080",
+            "cookies": "VISITOR_INFO1_LIVE=M2nwuWnPQb8; CONSENT=YES+DE.en+V8; _ga=GA1.2.429846923.1526039907; _gid=GA1.2.106729367.1526039907; PREF=f1=50000000&al=en&f5=30; YSC=PX4tfauFP2s",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > h1 > span",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 542,
+                            "occurrence": "1"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "subscribers",
+                            "x": 542,
+                            "occurrence": "1",
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > yt-img-shadow > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 438,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > div",
+                            "valueType": "text",
+                            "name": "video.title",
+                            "x": 438,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > ytd-expander > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "video.description",
+                            "x": 886,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                }
+            ]
+        },
+        {
+            "screen": "1366x768",
+            "cookies": "VISITOR_INFO1_LIVE=M2nwuWnPQb8; CONSENT=YES+DE.en+V8; _ga=GA1.2.429846923.1526039907; _gid=GA1.2.106729367.1526039907; PREF=f1=50000000&al=en&f5=30; YSC=PX4tfauFP2s",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > h1 > span",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 451,
+                            "occurrence": "1"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "subscribers",
+                            "x": 451,
+                            "occurrence": "1",
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > yt-img-shadow > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 347,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > div > yt-formatted-string > a",
+                            "valueType": "text",
+                            "name": "video.title",
+                            "x": 823,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > ytd-expander > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "video.description",
+                            "x": 823,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                }
+            ]
+        },
+        {
+            "screen": "1280x1024",
+            "cookies": "VISITOR_INFO1_LIVE=M2nwuWnPQb8; CONSENT=YES+DE.en+V8; _ga=GA1.2.429846923.1526039907; _gid=GA1.2.106729367.1526039907; PREF=f1=50000000&al=en&f5=30; YSC=PX4tfauFP2s",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > h1 > span",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 451,
+                            "occurrence": "1"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "subscribers",
+                            "x": 451,
+                            "occurrence": "1",
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > yt-img-shadow > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 347,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > div",
+                            "valueType": "text",
+                            "name": "video.title",
+                            "x": 332,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > ytd-expander > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "video.description",
+                            "x": 780,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                }
+            ]
+        },
+        {
+            "screen": "1024x768",
+            "cookies": "VISITOR_INFO1_LIVE=M2nwuWnPQb8; CONSENT=YES+DE.en+V8; _ga=GA1.2.429846923.1526039907; _gid=GA1.2.106729367.1526039907; PREF=f1=50000000&al=en&f5=30; YSC=PX4tfauFP2s",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > h1 > span",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 211,
+                            "occurrence": "1"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "subscribers",
+                            "x": 211,
+                            "occurrence": "1",
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > yt-img-shadow > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 107,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > div",
+                            "valueType": "text",
+                            "name": "video.title",
+                            "x": 84,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > ytd-expander > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "video.description",
+                            "x": 532,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                }
+            ]
+        },
+        {
+            "screen": "360x640",
+            "cookies": "VISITOR_INFO1_LIVE=M2nwuWnPQb8; CONSENT=YES+DE.en+V8; _ga=GA1.2.429846923.1526039907; _gid=GA1.2.106729367.1526039907; PREF=f1=50000000&al=en&f5=30; YSC=PX4tfauFP2s",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > h1 > span",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 8,
+                            "occurrence": "1"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "subscribers",
+                            "x": 8,
+                            "occurrence": "1",
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "required": true,
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-c4-tabbed-header-renderer > app-header-layout > div > app-header > div > div > div > div > yt-img-shadow > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 0,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > div",
+                            "valueType": "text",
+                            "name": "video.title",
+                            "x": -34,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "ytd-app > div > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > ytd-section-list-renderer > div > ytd-item-section-renderer > div > ytd-channel-video-player-renderer > div > ytd-expander > div > yt-formatted-string",
+                            "valueType": "text",
+                            "name": "video.description",
+                            "x": 0,
+                            "occurrence": 1,
+                            "valuePosition": "^"
+                        },
+                        "group": "user"
+                    }
+                }
+            ]
+        }
+    ]
+}

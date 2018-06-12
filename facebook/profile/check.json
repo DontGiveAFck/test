@@ -1,0 +1,92 @@
+{
+    "url": "https://www.facebook.com",
+    "name": "ganna.smith.543",
+    "cookies": "datr=6seGWkfSiKprHY8KYJByneCu; sb=7ceGWnUo6AFe4xEU7bryCo4W; locale=en_US; c_user=100025712673264; xs=17%3AYhg1YjAFuiFCXg%3A2%3A1526032286%3A-1%3A-1; fr=0R4UbhSQ31tgiHcSA.AWUUjRDbpYZ2jb5Z5U8rpSnGW5A.Bahsft.Hm.AAA.0.0.Ba9Wee.AWV7oNqh; pl=n; presence=EDvF3EtimeF1526032290EuserFA21B25712673264A2EstateFDutF1526032290351CEchFDp_5f1B25712673264F2CC; act=1526032297929%2F2; wd=1920x1080",
+    "actions": [
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true,
+                    "y": true
+                },
+                "target": {
+                    "valueType": "text",
+                    "value": "Ganna Smith",
+                    "occurrence": "1",
+                    "name": "name"
+                },
+                "group": "profile"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true
+                },
+                "target": {
+                    "valueType": "text",
+                    "value": "test super bio",
+                    "occurrence": "1",
+                    "name": "bio"
+                },
+                "group": "profile"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true,
+                    "y": true
+                },
+                "target": {
+                    "valuePosition": "$",
+                    "valueType": "src",
+                    "value": "p160x160/32074926_114672166071446_3298432027451195392_n.jpg?_nc_cat=0&oh=1960f4ae5a3c109af0b1236a176819b5&oe=5B90D130",
+                    "name": "images.avatar"
+                },
+                "group": "profile"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true,
+                    "y": true
+                },
+                "target": {
+                    "valuePosition": "$",
+                    "valueType": "src",
+                    "value": "/v/t1.0-0/c0.82.853.316/p480x480/32104714_114672636071399_396073586160304128_o.jpg?_nc_cat=0&oh=3f329cce3f9b0c41e978ba5e544ab49a&oe=5BB9C51A",
+                    "name": "images.cover"
+                },
+                "group": "profile"
+            }
+        }
+    ],
+    "structure": [
+        "name",
+        "bio",
+        "images.avatar",
+        "images.cover"
+    ],
+    "samples": [
+        {
+            "profile": {
+                "name": "Alexander",
+                "bio": "This is the bio of a profile we created",
+                "images": {
+                    "avatar": "https://facebook.com/somepath/someimage.png",
+                    "cover": "https://facebook.com/somepath/someimage.png"
+                }
+            }
+        }
+    ]
+}

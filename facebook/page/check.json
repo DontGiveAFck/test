@@ -1,0 +1,102 @@
+{
+    "url": "https://www.facebook.com",
+    "name": "marsexplorerrover",
+    "cookies": [
+        "datr=6seGWkfSiKprHY8KYJByneCu; sb=7ceGWnUo6AFe4xEU7bryCo4W; locale=en_GB; c_user=100026375117367; xs=32%3A3fQlmBvaqBcJCw%3A2%3A1527600167%3A-1%3A-1; fr=0R4UbhSQ31tgiHcSA.AWXRifpbbUFSE3Hto2JLu4o6370.Bahsft.Hm.AAA.0.0.BbDVQn.AWUcIsdR; pl=n; wd=1211x880; presence=EDvF3EtimeF1527602114EuserFA21B26375117367A2EstateFDutF1527602114416CEchFDp_5f1B26375117367F3CC"
+    ],
+    "actions": [
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "checkscreenshot"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "required": true,
+                "point": {
+                    "x": true,
+                    "y": true
+                },
+                "target": {
+                    "valueType": "text",
+                    "value": "Mars Exploration Rover",
+                    "occurrence": "1",
+                    "name": "name"
+                },
+                "group": "page"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "required": true,
+                "point": {
+                    "x": true
+                },
+                "target": {
+                    "valueType": "text",
+                    "value": "@marsexplorerrover",
+                    "occurrence": "1",
+                    "name": "link"
+                },
+                "group": "page"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true,
+                    "y": true
+                },
+                "target": {
+                    "valuePosition": "*",
+                    "valueType": "src",
+                    "value": "/v/t1.0-1/c33.0.200.200/p200x200/33811075_207939463264220_9136102841180487680_n.jpg",
+                    "name": "images.avatar"
+                },
+                "group": "page"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+
+                "point": {
+                    "x": true
+                },
+                "target": {
+                    "valuePosition": "*",
+                    "valueType": "src",
+                    "value": "33892363_207961719928661_1236786088295530496_o.jpg",
+                    "name": "images.cover"
+                },
+                "group": "page"
+            }
+        }
+    ],
+    "structure": [
+        "name",
+        "bio",
+        "images.avatar",
+        "images.cover"
+    ],
+    "samples": [
+        {
+            "page": {
+                "name": "Bernie Sanders",
+                "link": "@berniesanders",
+                "images": {
+                    "avatar": "https://facebook.com/somepath/someimage.png",
+                    "title": "https://facebook.com/somepath/someimage.png"
+                }
+            }
+        }
+    ]
+}

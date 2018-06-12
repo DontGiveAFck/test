@@ -1,0 +1,120 @@
+{
+  "url": "https://www.instagram.com",
+  "name": "simple_plan123321",
+  "cookies": [
+    "ig_cb=1; mcd=3; mid=Wx-g2AAEAAGDS0NqwZOSapdEx9hG; csrftoken=IoSSZsIIaUTB5C8H8c7Tcpl8bkt1NdIw; ds_user_id=7988062235; sessionid=IGSCbb232bb783fd78f6c5f289819821484ff3a4ecd8db12fdf352e227e8bca54d71%3AEtaChIOyA0BIfp49YEnPqyjnwes6swK2%3A%7B%22_auth_user_id%22%3A7988062235%2C%22_auth_user_backend%22%3A%22accounts.backends.CaseInsensitiveModelBackend%22%2C%22_auth_user_hash%22%3A%22%22%2C%22_platform%22%3A4%2C%22_token_ver%22%3A2%2C%22_token%22%3A%227988062235%3AVVmHtZkMMuAPJYfu84w67S94xmeMzM4J%3Af9a5eb9734e215abf5bf830512f1dfbc406f9b58d523d08304157fa1862364b8%22%2C%22last_refreshed%22%3A1528799453.5928163528%7D; rur=FTW; urlgen=\"{\\\"time\\\": 1528799455\\054 \\\"51.38.128.247\\\": 16276}:1fSgyM:sRsgY2LE1kUKYWmoLBMp8UmLQAk\""
+  ],
+  "actions": [
+    {
+      "type": "AddToResponse",
+      "params": {
+        "type": "checkscreenshot"
+      }
+    },
+    {
+      "type": "AddToResponse",
+      "params": {
+        "type": "check",
+        "point": {
+          "x": true,
+          "y": true
+        },
+        "target": {
+          "valueType": "text",
+          "value": "simple_plan123321",
+          "occurrence": "1",
+          "name": "name"
+        },
+        "group": "profile"
+      }
+    },
+    {
+      "type": "AddToResponse",
+      "params": {
+        "type": "check",
+        "point": {
+          "x": true,
+          "y": true
+        },
+        "target": {
+          "valuePosition": "*",
+          "valueType": "src",
+          "value": "/vp/4762e1e13a0bd673ce50017c7ebe0bc8/5BB689EC/t51.2885-19/s150x150/34324513_245782029526258_4878599359492521984_n.jpg",
+          "name": "images.avatar"
+        },
+        "group": "profile"
+      }
+    },
+    {
+      "type": "AddToResponse",
+      "params": {
+        "type": "check",
+        "point": {
+          "x": true,
+          "y": true
+        },
+        "target": {
+          "valueType": "text",
+          "value": "1 post",
+          "occurrence": "1",
+          "name": "posts"
+        },
+        "group": "profile"
+      }
+    },
+    {
+      "type": "AddToResponse",
+      "params": {
+        "type": "check",
+        "point": {
+          "x": true,
+          "y": true
+        },
+        "target": {
+          "valueType": "text",
+          "value": "0 followers",
+          "occurrence": "1",
+          "name": "followers"
+        },
+        "group": "profile"
+      }
+    },
+    {
+      "type": "AddToResponse",
+      "params": {
+        "type": "check",
+        "point": {
+          "x": true,
+          "y": true
+        },
+        "target": {
+          "valueType": "text",
+          "value": "0 following",
+          "occurrence": "1",
+          "name": "following"
+        },
+        "group": "profile"
+      }
+    }
+  ],
+  "structure": [
+    "name",
+    "images.avatar",
+    "posts",
+    "followers",
+    "following"
+  ],
+  "samples": [
+    {
+      "profile": {
+        "name": "simple_plan123321",
+        "images": {
+          "avatar": "https://instagram.com/somepath/someimage.png"
+        },
+        "posts": "1",
+        "followers": "0",
+        "following": "0"
+      }
+    }
+  ]
+}

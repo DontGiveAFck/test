@@ -1,0 +1,117 @@
+{
+    "url": "https://www.youtube.com",
+    "name": "watch?v=08hSSAPxzCg",
+    "cookies": "VISITOR_INFO1_LIVE=M2nwuWnPQb8; CONSENT=YES+DE.en+V8; _ga=GA1.2.429846923.1526039907; _gid=GA1.2.106729367.1526039907; PREF=f1=50000000&al=en&f5=30; YSC=PX4tfauFP2s",
+    "actions": [
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "required": true,
+                "group": "video",
+                "point": {
+                    "x": true,
+                    "y": true
+                },
+                "nthchild": false,
+                "target": {
+                    "valueType": "text",
+                    "value": "Avengers 4 - The Hulk Vs Thanos Finale?! World Breaker Hulk?",
+                    "occurrence": "1",
+                    "name": "name"
+                }
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "group": "video",
+                "point": {
+                    "x": true
+                },
+                "nthchild": false,
+                "target": {
+                    "valueType": "text",
+                    "valuePosition": "^",
+                    "value": "431,",
+                    "occurrence": "1",
+                    "name": "views"
+                }
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "required": true,
+                "group": "video",
+                "point": {
+                    "x": true
+                },
+                "nthchild": false,
+                "target": {
+                    "valuePosition": "$",
+                    "valueType": "src",
+                    "value": "/a-/ACSszfEo4yBbAGBpz6AFTr3ndE5Afm5XZjwzVkqd9w=s88-mo-c-c0xffffffff-rj-k-no",
+                    "name": "publisher.avatar"
+                }
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "required": true,
+                "group": "video",
+                "point": {
+                    "x": false
+                },
+                "nthchild": false,
+                "target": {
+                    "valueType": "text",
+                    "value": "UnrealNetwork",
+                    "name": "publisher.name"
+                }
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "required": true,
+                "group": "video",
+                "point": {
+                    "x": true
+                },
+                "nthchild": false,
+                "target": {
+                    "valueType": "text",
+                    "value": "Published on May 11, 2018",
+                    "name": "publisher.publish_date"
+                }
+            }
+        }
+    ],
+    "structure": [
+        "name",
+        "views",
+        "publisher.avatar",
+        "publisher.name",
+        "publisher.publish_date"
+
+    ],
+    "samples": [{
+        "profile": {
+            "name":"Fstoppers",
+            "views":"533,381 subscribers",
+            "images":{
+                "avatar":"https://yt3.ggpht.com/-Jg1b3HvQcWQ/AAAAAAAAAAI/AAAAAAAAAAA/hZk3CvyKBPE/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+            },
+            "video":{
+                "title":"Welcome to Fstoppers",
+                "description":"Fstoppers is an online community aimed at educating and inspiring photographers, videographers, and creative professionals.  Started in 2010 by founders Patrick Hall and Lee Morris, Fstoppers has grown into one of the top resources for photography lighting, gear reviews, business tips, behind the scenes, and industry news.  \n\nWebsite: www.fstoppers.com\nStore: www.fstoppers.com/store"
+            }
+        }
+    }]
+}

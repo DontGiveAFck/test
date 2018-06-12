@@ -1,0 +1,341 @@
+{
+    "url": "https://www.facebook.com",
+    "profiles": [
+        {
+            "screen": "1920x1080",
+            "cookies": "datr=6seGWkfSiKprHY8KYJByneCu; sb=7ceGWnUo6AFe4xEU7bryCo4W; locale=en_US; c_user=100025712673264; xs=17%3AYhg1YjAFuiFCXg%3A2%3A1526032286%3A-1%3A-1; fr=0R4UbhSQ31tgiHcSA.AWUUjRDbpYZ2jb5Z5U8rpSnGW5A.Bahsft.Hm.AAA.0.0.Ba9Wee.AWV7oNqh; pl=n; presence=EDvF3EtimeF1526032290EuserFA21B25712673264A2EstateFDutF1526032290351CEchFDp_5f1B25712673264F2CC; act=1526032297929%2F2; wd=1920x1080",
+
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > div",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 670.5,
+                            "y": 315,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > div > span > ol > li > div > div:nth-child(2) > div > div",
+                            "valueType": "text",
+                            "name": "bio",
+                            "x": 482.5,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 485.5,
+                            "y": 215,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.cover",
+                            "x": 469.5,
+                            "y": 42,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                }
+            ]
+        },
+        {
+            "screen": "1366x768",
+            "cookies": "datr=6seGWkfSiKprHY8KYJByneCu; sb=7ceGWnUo6AFe4xEU7bryCo4W; locale=en_US; c_user=100025712673264; xs=17%3AYhg1YjAFuiFCXg%3A2%3A1526032286%3A-1%3A-1; fr=0R4UbhSQ31tgiHcSA.AWUUjRDbpYZ2jb5Z5U8rpSnGW5A.Bahsft.Hm.AAA.0.0.Ba9Wee.AWV7oNqh; pl=n; presence=EDvF3EtimeF1526032290EuserFA21B25712673264A2EstateFDutF1526032290351CEchFDp_5f1B25712673264F2CC; act=1526032297929%2F2; wd=1920x1080",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > div",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 393.5,
+                            "y": 315,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > div > span > ol > li > div > div:nth-child(2) > div > div",
+                            "valueType": "text",
+                            "name": "bio",
+                            "x": 205.5,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 208.5,
+                            "y": 215,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.cover",
+                            "x": 192.5,
+                            "y": 42,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                }
+            ]
+        },
+        {
+            "screen": "1280x1024",
+            "cookies": "datr=6seGWkfSiKprHY8KYJByneCu; sb=7ceGWnUo6AFe4xEU7bryCo4W; locale=en_US; c_user=100025712673264; xs=17%3AYhg1YjAFuiFCXg%3A2%3A1526032286%3A-1%3A-1; fr=0R4UbhSQ31tgiHcSA.AWUUjRDbpYZ2jb5Z5U8rpSnGW5A.Bahsft.Hm.AAA.0.0.Ba9Wee.AWV7oNqh; pl=n; presence=EDvF3EtimeF1526032290EuserFA21B25712673264A2EstateFDutF1526032290351CEchFDp_5f1B25712673264F2CC; act=1526032297929%2F2; wd=1920x1080",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > div",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 350.5,
+                            "y": 315,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > div > span > ol > li > div > div:nth-child(2) > div > div",
+                            "valueType": "text",
+                            "name": "bio",
+                            "x": 162.5,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 165.5,
+                            "y": 215,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.cover",
+                            "x": 149.5,
+                            "y": 42,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                }
+            ]
+        },
+        {
+            "screen": "1024x768",
+            "cookies": "datr=6seGWkfSiKprHY8KYJByneCu; sb=7ceGWnUo6AFe4xEU7bryCo4W; locale=en_US; c_user=100025712673264; xs=17%3AYhg1YjAFuiFCXg%3A2%3A1526032286%3A-1%3A-1; fr=0R4UbhSQ31tgiHcSA.AWUUjRDbpYZ2jb5Z5U8rpSnGW5A.Bahsft.Hm.AAA.0.0.Ba9Wee.AWV7oNqh; pl=n; presence=EDvF3EtimeF1526032290EuserFA21B25712673264A2EstateFDutF1526032290351CEchFDp_5f1B25712673264F2CC; act=1526032297929%2F2; wd=1920x1080",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > div",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 222.5,
+                            "y": 315,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > div > span > ol > li > div > div:nth-child(2) > div > div",
+                            "valueType": "text",
+                            "name": "bio",
+                            "x": 34.5,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 37.5,
+                            "y": 215,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.cover",
+                            "x": 21.5,
+                            "y": 42,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                }
+            ]
+        },
+        {
+            "screen": "360x640",
+            "cookies": "datr=6seGWkfSiKprHY8KYJByneCu; sb=7ceGWnUo6AFe4xEU7bryCo4W; locale=en_US; c_user=100025712673264; xs=17%3AYhg1YjAFuiFCXg%3A2%3A1526032286%3A-1%3A-1; fr=0R4UbhSQ31tgiHcSA.AWUUjRDbpYZ2jb5Z5U8rpSnGW5A.Bahsft.Hm.AAA.0.0.Ba9Wee.AWV7oNqh; pl=n; presence=EDvF3EtimeF1526032290EuserFA21B25712673264A2EstateFDutF1526032290351CEchFDp_5f1B25712673264F2CC; act=1526032297929%2F2; wd=1920x1080",
+            "actions": [
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > div",
+                            "valueType": "text",
+                            "name": "name",
+                            "x": 201,
+                            "y": 315,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(3) > div:nth-child(2) > div > div > div > div:nth-child(2) > div > div > div > span > ol > li > div > div:nth-child(2) > div > div",
+                            "valueType": "text",
+                            "name": "bio",
+                            "x": 13,
+                            "occurrence": "1"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.avatar",
+                            "x": 16,
+                            "y": 215,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                },
+                {
+                    "type": "AddToResponse",
+                    "params": {
+                        "type": "html",
+                        "target": {
+                            "target": "div > div:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(3) > div > div > a > img",
+                            "valueType": "src",
+                            "name": "images.cover",
+                            "x": 0,
+                            "y": 42,
+                            "occurrence": 1,
+                            "valuePosition": "$"
+                        },
+                        "group": "profile"
+                    }
+                }
+            ]
+        }
+    ]
+}

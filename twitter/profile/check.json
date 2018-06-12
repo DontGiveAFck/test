@@ -1,0 +1,92 @@
+{
+    "url": "https://twitter.com",
+    "name": "SimpleP20733398",
+    "cookies": "personalization_id='v1_e2f7xYvM0ZQMytU6Z0dkNA=='; guest_id=v1%3A152880290017832693; ct0=32fbd3739b67b6e0c7ff0858fdd844b1; _ga=GA1.2.1568535329.1528802902; _gid=GA1.2.301005333.1528802902; eu_cn=1; _gat=1; dnt=1; ads_prefs='HBISAAA='; kdt=HAnc7UPaK18zNez1DRtg9rR0yueXBbGBX3ClIWzb; remember_checked_on=0; _twitter_sess=BAh7CiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCNb4wPNjAToMY3NyZl9p%250AZCIlYjZmYjkyODk0YjBlZWMzMzNjMzBhMjM3MmFkZDZkY2U6B2lkIiUyZDdm%250ANmE1MmI5MTE3NTk2MWE4ZGMwYzU2YzFhOWM5ODoJdXNlcmwrCQDQ13iXm%252FYN--e5348c1d8af57e3db177e32653acbdc4d1bc97aa; twid='u=1006162641633660928'; auth_token=c51c72f00cc3a7175a1e5ffc562cda3f421c863f; csrf_same_site_set=1; lang=en; csrf_same_site=1",
+    "actions": [
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "checkscreenshot"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true
+                },
+                "target": {
+                    "valueType": "text",
+                    "value": "Simple Plan",
+                    "occurrence": "1",
+                    "name": "name"
+                },
+                "group": "profile"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true
+                },
+
+                "target": {
+                    "valueType": "text",
+                    "value": "SimpleP20733398",
+                    "occurrence": "1",
+                    "name": "link"
+                },
+                "group": "profile"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true
+                },
+                "target": {
+                    "valueType": "src",
+                    "value": "https://pbs.twimg.com/profile_images/1006161970079457281/W4Ex4zE0_400x400.jpg",
+                    "name": "images.avatar"
+                },
+                "group": "profile"
+            }
+        },
+        {
+            "type": "AddToResponse",
+            "params": {
+                "type": "check",
+                "point": {
+                    "x": true
+                },
+                "target": {
+                    "valueType": "src",
+                    "value": "https://pbs.twimg.com/profile_banners/1006160429612232704/1528723450/1500x500",
+                    "name": "images.cover"
+                },
+                "group": "profile"
+            }
+        }
+    ],
+    "structure": [
+        "name",
+        "link",
+        "images.avatar",
+        "images.cover"
+    ],
+    "samples": [
+        {
+            "name": "Alexander",
+            "link": "@alex",
+            "images": {
+                "avatar": "https://pbs.twimg.com/profile_images/somefolder/someimage.png",
+                "cover": "https://pbs.twimg.com/profile_banners/somefolder/someimage.png"
+            }
+        }
+    ]
+}
